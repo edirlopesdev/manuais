@@ -1,6 +1,6 @@
 ## Como Instalar o PM2 e Executar a Aplicação
 
-1. **Instalação do PM2**:
+## 1. Instalação do PM2:
     ```bash
     npm install -g pm2
     ```
