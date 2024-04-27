@@ -25,3 +25,16 @@
         ```bash
         pm2 startup systemd
         ```
+## :handshake: Colaboradores
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/edirlopesdev">
+        <img src="https://avatars.githubusercontent.com/u/128933712?v=4" width="100px;" alt="Edir Lopes Lima"/><br>
+        <sub>
+          <b>Welington Oliveira</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
