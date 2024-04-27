@@ -1,4 +1,4 @@
-**Configuração de Novo Projeto com GitHub**
+## Configuração de Novo Projeto com GitHub
 
 Este guia descreve como criar um novo projeto a partir de um projeto existente que já está sincronizado com o GitHub. Vamos desvincular as pastas do servidor e do cliente do repositório Git original e criar novos repositórios no GitHub para cada uma delas.
 
