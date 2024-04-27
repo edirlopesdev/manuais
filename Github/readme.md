@@ -1,10 +1,10 @@
-# Configuração de Novo Projeto com GitHub
+**Configuração de Novo Projeto com GitHub**
 
 Este guia descreve como criar um novo projeto a partir de um projeto existente que já está sincronizado com o GitHub. Vamos desvincular as pastas do servidor e do cliente do repositório Git original e criar novos repositórios no GitHub para cada uma delas.
 
 **Nota:** Se você estiver começando um projeto do zero e ainda não tem um repositório no GitHub, pule diretamente para o **Passo 2**.
 
-## Passo 1: Desvinculando as Pastas do Repositório Git Original
+**Passo 1: Desvinculando as Pastas do Repositório Git Original**
 
 No terminal do Visual Studio Code (VSCode), siga estas etapas:
 
@@ -23,7 +23,7 @@ No terminal do Visual Studio Code (VSCode), siga estas etapas:
     Remove-Item -Recurse -Force .git
     ```
 
-## Passo 2: Criando Novos Repositórios no GitHub
+**Passo 2: Criando Novos Repositórios no GitHub**
 
 1. Acesse o GitHub e faça login na sua conta.
 2. Clique no botão `+` no canto superior direito e selecione `New repository`.
@@ -31,7 +31,7 @@ No terminal do Visual Studio Code (VSCode), siga estas etapas:
 4. Escolha se deseja tornar o repositório público ou privado.
 5. Clique em `Create repository`.
 
-## Passo 3: Vinculando os Repositórios Locais aos Repositórios no GitHub
+**Passo 3: Vinculando os Repositórios Locais aos Repositórios no GitHub**
 
 1. Abra o terminal do VSCode.
 2. Navegue até a pasta do servidor:
