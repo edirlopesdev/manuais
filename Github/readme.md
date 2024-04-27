@@ -1,0 +1,58 @@
+# Configuração de Novo Projeto com GitHub
+
+Este guia descreve como criar um novo projeto a partir de um projeto existente que já está sincronizado com o GitHub. Vamos desvincular as pastas do servidor e do cliente do repositório Git original e criar novos repositórios no GitHub para cada uma delas.
+
+## Passo 1: Desvinculando as Pastas do Repositório Git Original
+
+No terminal do Visual Studio Code (VSCode), siga estas etapas:
+
+1. Acesse a pasta do servidor:
+    ```bash
+    cd 'C:\Projetos\XCSolucoes\XC_MIDDLEWARE\server'
+    ```
+2. Execute o seguinte comando para remover a pasta `.git` (repositório Git original):
+    ```bash
+    Remove-Item -Recurse -Force .git
+    ```
+
+3. Repita o mesmo processo para a pasta do cliente:
+    ```bash
+    cd 'C:\Projetos\XCSolucoes\XC_MIDDLEWARE\client'
+    Remove-Item -Recurse -Force .git
+    ```
+
+## Passo 2: Criando Novos Repositórios no GitHub
+
+1. Acesse o GitHub e faça login na sua conta.
+2. Clique no botão `+` no canto superior direito e selecione `New repository`.
+3. Dê um nome ao seu repositório (por exemplo, `meuprojetoback`).
+4. Escolha se deseja tornar o repositório público ou privado.
+5. Clique em `Create repository`.
+
+## Passo 3: Vinculando os Repositórios Locais aos Repositórios no GitHub
+
+1. Abra o terminal do VSCode.
+2. Navegue até a pasta do servidor:
+    ```bash
+    cd 'C:\Projetos\XCSolucoes\XC_MIDDLEWARE\server'
+    ```
+    Execute os seguintes comandos para vincular o repositório local ao repositório no GitHub:
+    ```bash
+    git init
+    git add .
+    git commit -m "Primeiro commit"
+    git branch -M main
+    git remote add origin https://github.com/edirlopesdev/meuprojetoback.git
+    git push -u origin main
+    ```
+
+3. Repita o mesmo processo para a pasta do cliente:
+    ```bash
+    cd 'C:\Projetos\XCSolucoes\XC_MIDDLEWARE\client'
+    git init
+    git add .
+    git commit -m "Primeiro commit"
+    git branch -M main
+    git remote add origin https://github.com/edirlopesdev/meuprojetofront.git
+    git push -u origin main
+    ```
