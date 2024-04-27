@@ -1,4 +1,4 @@
-## Como Instalar o PM2 e Executar a Aplicação
+## Como Instalar o PM2 e executar a aplicação
 
 1. **Instalação do PM2**:
     - Abra o terminal.
