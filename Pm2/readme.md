@@ -25,7 +25,7 @@
         ```bash
         pm2 startup systemd
         ```
-## :handshake: Colaboradores
+## :handshake: Colaborador
 <table>
   <tr>
     <td align="center">
