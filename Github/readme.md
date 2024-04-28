@@ -17,7 +17,10 @@
     ```bash
     git config --list
     ```
-## 2. Repositório
+## 2. Repositório local
+
+- **Criar novo repositório local:** ```bash git init```
+    
 
 ## Configuração de novo projeto com GitHub
 
