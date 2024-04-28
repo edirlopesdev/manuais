@@ -1,3 +1,12 @@
+## Principais comandos no Github
+
+1. **Setar usuário e email:**
+    ```bash
+    git config --global user.name "Edir Lopes"
+    git config --global user.email "contato.edir@gmail.com"
+    ```
+
+
 ## Configuração de novo projeto com GitHub
 
 Este guia descreve como criar um novo projeto a partir de um projeto existente que já está sincronizado com o GitHub. Vamos desvincular as pastas do servidor e do cliente do repositório Git original e criar novos repositórios no GitHub para cada uma delas.
