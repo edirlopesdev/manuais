@@ -25,9 +25,11 @@
     ```
 
 - **Verificar status dos arquivos/diretórios:** 
-    ```bash
+    <!-- ```bash
     git status 
-    ```
+    ``` -->
+    bash
+    git status
 
 - **Adicionar arquivos/diretórios à staged area:** 
     - Adicionar um arquivo específico:
