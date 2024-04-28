@@ -19,7 +19,33 @@
     ```
 ## 2. Repositório local
 
-- **Criar novo repositório local:** ```bash git init```
+- **Criar novo repositório local:** 
+    ```bash 
+    git init
+    ```
+
+    - **Verificar status dos arquivos/diretórios:** 
+    ```bash
+    git status 
+    ```
+
+    - **Adicionar arquivos/diretórios à staged area:** 
+        - Adicionar um arquivo específico:
+        ```bash 
+        git add meu_arquivo.js
+        ```
+        - Adicionar um diretório específico:
+        ```bash 
+        git add meu_diretorio
+        ```
+
+    - **Comitar arquivos/diretórios:** 
+    ```bash 
+    ```
+
+    - **Remover arquivos/diretórios:** 
+    ```bash 
+    ```
     
 
 ## Configuração de novo projeto com GitHub
