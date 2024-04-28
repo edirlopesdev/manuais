@@ -42,6 +42,10 @@
         ```bash 
         git add .
         ```
+    - Adicionar um arquivo listado no .gitignore:
+        ```bash 
+        git add -f arquivo_no_gitignore.txt
+        ```
 
 - **Comitar arquivos/diretórios:** 
     ```bash 
