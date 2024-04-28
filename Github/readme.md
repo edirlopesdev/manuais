@@ -5,6 +5,18 @@
     git config --global user.name "Edir Lopes"
     git config --global user.email "contato.edir@gmail.com"
     ```
+- **Setar editor de texto padrão:**
+    ```bash
+    git config --global core.editor "seu_editor"
+    ```
+- **Setar ferramenta de merge:**
+    ```bash
+    git config --global merge.tool "sua_ferramenta_de_merge"
+    ```
+- **Listar configurações:**
+    ```bash
+    git config --list
+    ```
 ## 2. Repositório
 
 ## Configuração de novo projeto com GitHub
