@@ -25,25 +25,29 @@
     ```
 
 - **Verificar status dos arquivos/diretórios:** 
-```bash
-git status 
-```
+    ```bash
+    git status 
+    ```
 
 - **Adicionar arquivos/diretórios à staged area:** 
     - Adicionar um arquivo específico:
-    ```bash 
-    git add meu_arquivo.js
-    ```
+        ```bash 
+        git add meu_arquivo.js
+        ```
     - Adicionar um diretório específico:
+        ```bash 
+        git add meu_diretorio
+        ```
+    - Adicionar todos os arquivos/diretórios:
+        ```bash 
+        git add .
+        ```
+
+- **Comitar arquivos/diretórios:** 
     ```bash 
-    git add meu_diretorio
     ```
 
-    - **Comitar arquivos/diretórios:** 
-    ```bash 
-    ```
-
-    - **Remover arquivos/diretórios:** 
+- **Remover arquivos/diretórios:** 
     ```bash 
     ```
     
