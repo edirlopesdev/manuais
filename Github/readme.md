@@ -48,8 +48,18 @@
         ```
 
 - **Comitar arquivos/diretórios:** 
-    ```bash 
-    ```
+    - Comitar um arquivo:
+        ```bash 
+        git commit meu_arquivo.txt
+        ```
+    - Comitar vários arquivos:
+        ```bash 
+        git commit meu_arquivo.txt meu_outro_arquivo.txt
+        ```
+    - Comitar informando mensagem:
+        ```bash 
+        git commit meuarquivo.txt -m "minha mensagem de commit"
+        ```
 
 - **Remover arquivos/diretórios:** 
     ```bash 
