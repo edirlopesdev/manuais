@@ -1,11 +1,11 @@
-## Principais comandos no Github
+## 1. Configurações iniciais no GitHub
 
-1. **Setar usuário e email:**
+- **Setar usuário e email:**
     ```bash
     git config --global user.name "Edir Lopes"
     git config --global user.email "contato.edir@gmail.com"
     ```
-
+## 2. Repositório
 
 ## Configuração de novo projeto com GitHub
 
