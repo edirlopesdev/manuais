@@ -14,7 +14,7 @@
     ```bash
     pm2 start server.js
     ```
-    - Ou esse comamndo para iniciar sua aplicação com um nome customizado usando o PM2 
+    - Ou esse comando para iniciar sua aplicação com um nome customizado usando o PM2 
     ```bash
     pm2 start server.js --name "nomecustomizado"
     ```
