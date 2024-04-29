@@ -14,6 +14,14 @@
     ```bash
     pm2 start server.js
     ```
+    - Ou esse comamndo para iniciar sua aplicação com um nome customizado usando o PM2 
+    ```bash
+    pm2 start server.js --name "nomecustomizado"
+    ```
+    - Após iniciar a aplicação, caso queira que sua aplicação seja salva para ser gerenciada pelo PM2, sendo assim, toda vez que o servidor for reiniciado sua aplicação sera iniciada.
+    ```bash
+    pm2 save
+    ```
 
 3. **Configurar o PM2 para Inicialização Automática (Ubuntu ou Systemd)**:
     - Para garantir que o PM2 inicie automaticamente com o sistema, execute um dos seguintes comandos, dependendo do seu sistema operacional:
