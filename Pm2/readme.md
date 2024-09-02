@@ -34,7 +34,7 @@
         pm2 startup systemd
         ```
 
-# Como configurar e executar uma aplicação Next.js em um servidor Windows usando PM2
+## Como configurar e executar uma aplicação Next.js em um servidor Windows usando PM2
 
 Este guia passo a passo explica como configurar e executar uma aplicação Next.js em um servidor Windows usando o PM2 para gerenciamento de processos. Ele abrange desde a verificação da versão do Node.js até a configuração do PM2 para iniciar automaticamente na inicialização do sistema.
 
